@@ -73,7 +73,6 @@ footer{
     
 }
 .rightsecondbottombox{
-	float: right;
     width: 50%;
 }
 .leftsecondbottombox{
@@ -84,44 +83,35 @@ footer{
     height: 75%;
 
 }
-.third,.second,.first{
-	min-height: 70vh;
+.leftsecondbottombox>span{
+	opacity: 50%;
+	margin-bottom: 30px;
 }
 .third{
-	height: 70vh;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
 }
 .thirdbigbox{
 	display: flex;
-    width: 95%;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 85px;
-
-}
-.thirdleftbox{
-	display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    margin-right: 30px;
-    width: 275px;
-
+    flex-wrap: wrap;
+    width: 60vw;
+    height: 60vh;
+    margin-right: 256px;
 }
 .thirdrightbox{
-	width: 210px;
+    width: 30%;	
+    height: 100%;
+    margin-left: 40px;
 }
 .thirdrightbox>img{
-	height: 310px;
+	height: 90%;
 }
-.centerlink{
-	color: black;
-	font-size: 20px;
-}
-.leftsecondbottombox>span,.thirdrightbox>span{
-	opacity: 50%;
-	margin-bottom: 30px;
+.thirdleftbox{
+	width: 60%;
 }
 @media only screen and (max-width:600px) {
 	.first{
@@ -150,16 +140,13 @@ footer{
 	.firstbutton>a>button{
 		margin: 0px 15px;
 	}
-	.thirdbigbox{
-		margin-left: 15px;
-	}
 	.rightsecondbottombox{
 	    float: right;
 	    width: 100%;
 	    margin-top: 35px;
 	}
 	.second {
-    height: 124vh;
+    height: 140vh;
 	}
 	.secondbottombox {
     display: flex;
@@ -172,6 +159,14 @@ footer{
 	}
 	.secondbigbox{
 		width: 100%;
+	}
+	.thirdbigbox{
+		margin-right: 0px;
+		width: 90vw;
+	}
+	.thirdrightbox{
+		height: 60%;
+		margin: 0px;
 	}
 }
 @media only screen and (max-width:768px) and (min-width:600px) {
@@ -201,9 +196,6 @@ footer{
 	.firstbutton>a>button{
 		margin: 0px 15px;
 	}
-	.thirdbigbox{
-		margin-left: 15px;
-	}
 	.rightsecondbottombox{
 	    float: right;
 	    width: 100%;
@@ -228,8 +220,5 @@ footer{
 @media only screen and (max-width:1160px) and (min-width:768px) {
 	.secondbottombox{
 		width: 80vw;
-	}
-	.rightsecondbottombox{
-		width: 50%;
 	}
 }

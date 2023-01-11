@@ -63,7 +63,7 @@ footer{
 	    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 60vh;
+    height: 422px;
     width: 45vw;
     margin-top: 50px;
     justify-content: flex-start;
@@ -99,7 +99,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     width: 60vw;
-    height: 60vh;
+   	height: 422px;
     margin-right: 256px;
 }
 .thirdrightbox{

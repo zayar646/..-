@@ -87,6 +87,9 @@ footer{
 .third{
 	height: 70vh;
 }
+.first,.second,.third{
+	min-height: 100vh;
+}
 .thirdbigbox{
 	display: flex;
     width: 95%;

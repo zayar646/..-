@@ -84,6 +84,9 @@ footer{
     height: 75%;
 
 }
+.third,.second,.first{
+	min-height: 70vh;
+}
 .third{
 	height: 70vh;
 }
